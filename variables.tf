@@ -1,11 +1,12 @@
-variable "name" {
-    type = string
-    default = "zahid"
+variable "zahidrg" {
+    description = "The name of the resource group"
+    type        = string
+    default     = "zahidrg-resources"
 }
-variable "dsididasidasdas" {
-    type = string
-    default = "zahid"
+variable "location" {
+    description = "The location of the resources"
+    type        = string
+    default     = "West Europe"
 }
-variable "username" {
-    type = string
-}
+
+
